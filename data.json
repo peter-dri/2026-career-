@@ -1,0 +1,631 @@
+{
+  "foodData": {
+    "breakfast": [
+      {
+        "id": 1,
+        "name": "Mandazi",
+        "price": 20,
+        "available": 40,
+        "unit": "pieces",
+        "category": "breakfast",
+        "tags": [
+          "sweet",
+          "vegetarian",
+          "vegan",
+          "light"
+        ],
+        "totalOrders": 23,
+        "calories": 150,
+        "isVegetarian": true,
+        "isVegan": true,
+        "spicyLevel": 0
+      },
+      {
+        "id": 2,
+        "name": "Chapati",
+        "price": 30,
+        "available": 35,
+        "unit": "pieces",
+        "category": "breakfast",
+        "tags": [
+          "vegetarian",
+          "vegan",
+          "light"
+        ],
+        "totalOrders": 15,
+        "calories": 120,
+        "isVegetarian": true,
+        "isVegan": true,
+        "spicyLevel": 0
+      },
+      {
+        "id": 3,
+        "name": "Tea",
+        "price": 15,
+        "available": 65,
+        "unit": "cups",
+        "category": "breakfast",
+        "tags": [
+          "vegetarian",
+          "vegan",
+          "light",
+          "beverage"
+        ],
+        "totalOrders": 45,
+        "calories": 30,
+        "isVegetarian": true,
+        "isVegan": true,
+        "spicyLevel": 0
+      },
+      {
+        "id": 4,
+        "name": "Eggs & Bread",
+        "price": 50,
+        "available": 27,
+        "unit": "plates",
+        "category": "breakfast",
+        "tags": [
+          "vegetarian",
+          "protein-rich"
+        ],
+        "totalOrders": 28,
+        "calories": 350,
+        "isVegetarian": true,
+        "isVegan": false,
+        "spicyLevel": 0
+      }
+    ],
+    "lunch": [
+      {
+        "id": 5,
+        "name": "Ugali & Beef",
+        "price": 120,
+        "available": 23,
+        "unit": "plates",
+        "category": "lunch",
+        "tags": [
+          "protein-rich",
+          "savory",
+          "filling"
+        ],
+        "totalOrders": 42,
+        "calories": 650,
+        "isVegetarian": false,
+        "isVegan": false,
+        "spicyLevel": 1
+      },
+      {
+        "id": 6,
+        "name": "Rice & Chicken",
+        "price": 150,
+        "available": 24,
+        "unit": "plates",
+        "category": "lunch",
+        "tags": [
+          "protein-rich",
+          "savory",
+          "filling"
+        ],
+        "totalOrders": 38,
+        "calories": 700,
+        "isVegetarian": false,
+        "isVegan": false,
+        "spicyLevel": 1
+      },
+      {
+        "id": 7,
+        "name": "Githeri",
+        "price": 80,
+        "available": 40,
+        "unit": "plates",
+        "category": "lunch",
+        "tags": [
+          "vegetarian",
+          "vegan",
+          "protein-rich",
+          "savory"
+        ],
+        "totalOrders": 32,
+        "calories": 400,
+        "isVegetarian": true,
+        "isVegan": true,
+        "spicyLevel": 0
+      },
+      {
+        "id": 8,
+        "name": "Pilau",
+        "price": 100,
+        "available": 30,
+        "unit": "plates",
+        "category": "lunch",
+        "tags": [
+          "savory",
+          "spicy",
+          "filling"
+        ],
+        "totalOrders": 35,
+        "calories": 550,
+        "isVegetarian": false,
+        "isVegan": false,
+        "spicyLevel": 2
+      },
+      {
+        "id": 14,
+        "name": "Melon",
+        "price": 10,
+        "available": 99,
+        "unit": "pieces"
+      }
+    ],
+    "snacks": [
+      {
+        "id": 9,
+        "name": "Samosa",
+        "price": 25,
+        "available": 59,
+        "unit": "pieces",
+        "category": "snacks",
+        "tags": [
+          "vegetarian",
+          "spicy",
+          "savory"
+        ],
+        "totalOrders": 52,
+        "calories": 180,
+        "isVegetarian": true,
+        "isVegan": true,
+        "spicyLevel": 2
+      },
+      {
+        "id": 10,
+        "name": "Sausage",
+        "price": 30,
+        "available": 45,
+        "unit": "pieces",
+        "category": "snacks",
+        "tags": [
+          "protein-rich",
+          "savory"
+        ],
+        "totalOrders": 30,
+        "calories": 250,
+        "isVegetarian": false,
+        "isVegan": false,
+        "spicyLevel": 1
+      },
+      {
+        "id": 11,
+        "name": "Juice",
+        "price": 40,
+        "available": 50,
+        "unit": "cups",
+        "category": "snacks",
+        "tags": [
+          "sweet",
+          "vegetarian",
+          "vegan",
+          "beverage"
+        ],
+        "totalOrders": 40,
+        "calories": 120,
+        "isVegetarian": true,
+        "isVegan": true,
+        "spicyLevel": 0
+      },
+      {
+        "id": 12,
+        "name": "Chips",
+        "price": 80,
+        "available": 3,
+        "unit": "plates",
+        "category": "snacks",
+        "tags": [
+          "vegetarian",
+          "vegan",
+          "savory"
+        ],
+        "totalOrders": 48,
+        "calories": 450,
+        "isVegetarian": true,
+        "isVegan": true,
+        "spicyLevel": 0
+      },
+      {
+        "id": 13,
+        "name": "Smocha",
+        "price": 60,
+        "available": 10,
+        "unit": "pieces",
+        "category": "snacks",
+        "tags": [
+          "vegetarian",
+          "savory",
+          "filling"
+        ],
+        "totalOrders": 25,
+        "calories": 350,
+        "isVegetarian": true,
+        "isVegan": false,
+        "spicyLevel": 1
+      },
+      {
+        "id": 14,
+        "name": "Melon",
+        "price": 10,
+        "available": 99,
+        "unit": "pieces"
+      }
+    ]
+  },
+  "userPreferences": {},
+  "recommendationMetrics": {
+    "totalRecommendationsShown": 0,
+    "totalClicks": 0,
+    "totalOrders": 0,
+    "byStrategy": {
+      "collaborative": {
+        "shown": 0,
+        "clicked": 0,
+        "ordered": 0
+      },
+      "contentBased": {
+        "shown": 0,
+        "clicked": 0,
+        "ordered": 0
+      },
+      "popularity": {
+        "shown": 0,
+        "clicked": 0,
+        "ordered": 0
+      }
+    },
+    "topRecommendedItems": []
+  },
+  "orderHistory": [
+    {
+      "id": 1765448789680,
+      "orderNumber": "TUC-1016",
+      "timestamp": "12/11/2025, 1:26:29 PM",
+      "items": [
+        {
+          "id": 12,
+          "name": "Chips",
+          "quantity": 4,
+          "price": 80,
+          "total": 320
+        }
+      ],
+      "total": 320,
+      "paymentMethod": "mpesa",
+      "mpesaPhone": "0110725771",
+      "paymentStatus": "Paid"
+    },
+    {
+      "id": 1765448772579,
+      "orderNumber": "TUC-1015",
+      "timestamp": "12/11/2025, 1:26:12 PM",
+      "items": [
+        {
+          "id": 12,
+          "name": "Chips",
+          "quantity": 12,
+          "price": 80,
+          "total": 960
+        }
+      ],
+      "total": 960,
+      "paymentMethod": "mpesa",
+      "mpesaPhone": "0110725771",
+      "paymentStatus": "Paid"
+    },
+    {
+      "id": 1765448655153,
+      "orderNumber": "TUC-1014",
+      "timestamp": "12/11/2025, 1:24:15 PM",
+      "items": [
+        {
+          "id": 6,
+          "name": "Rice & Chicken",
+          "quantity": 1,
+          "price": 150,
+          "total": 150
+        }
+      ],
+      "total": 150,
+      "paymentMethod": "cash",
+      "mpesaPhone": null,
+      "paymentStatus": "Paid"
+    },
+    {
+      "id": 1764840353866,
+      "orderNumber": "TUC-1013",
+      "timestamp": "12/4/2025, 12:25:53 PM",
+      "items": [
+        {
+          "id": 4,
+          "name": "Eggs & Bread",
+          "quantity": 3,
+          "price": 50,
+          "total": 150
+        }
+      ],
+      "total": 150,
+      "paymentMethod": "cash",
+      "mpesaPhone": null,
+      "paymentStatus": "Paid"
+    },
+    {
+      "id": 1764840255011,
+      "orderNumber": "TUC-1012",
+      "timestamp": "12/4/2025, 12:24:15 PM",
+      "items": [
+        {
+          "id": 2,
+          "name": "Chapati",
+          "quantity": 4,
+          "price": 30,
+          "total": 120
+        }
+      ],
+      "total": 120,
+      "paymentMethod": "cash",
+      "mpesaPhone": null,
+      "paymentStatus": "Paid"
+    },
+    {
+      "id": 1764839625367,
+      "orderNumber": "TUC-1011",
+      "timestamp": "12/4/2025, 12:13:45 PM",
+      "items": [
+        {
+          "id": 5,
+          "name": "Ugali & Beef",
+          "quantity": 10,
+          "price": 120,
+          "total": 1200
+        }
+      ],
+      "total": 1200,
+      "paymentMethod": "mpesa",
+      "mpesaPhone": "254741179808",
+      "paymentStatus": "Paid"
+    },
+    {
+      "id": 1764839492047,
+      "orderNumber": "TUC-1010",
+      "timestamp": "12/4/2025, 12:11:32 PM",
+      "items": [
+        {
+          "id": 3,
+          "name": "Tea",
+          "quantity": 1,
+          "price": 15,
+          "total": 15
+        }
+      ],
+      "total": 15,
+      "paymentMethod": "mpesa",
+      "mpesaPhone": "254741179808",
+      "paymentStatus": "Paid"
+    },
+    {
+      "id": 1764839287638,
+      "orderNumber": "TUC-1009",
+      "timestamp": "12/4/2025, 12:08:07 PM",
+      "items": [
+        {
+          "id": 3,
+          "name": "Tea",
+          "quantity": 4,
+          "price": 15,
+          "total": 60
+        }
+      ],
+      "total": 60,
+      "paymentMethod": "mpesa",
+      "mpesaPhone": "0110725771",
+      "paymentStatus": "Paid"
+    },
+    {
+      "id": 1764839210748,
+      "orderNumber": "TUC-1008",
+      "timestamp": "12/4/2025, 12:06:50 PM",
+      "items": [
+        {
+          "id": 5,
+          "name": "Ugali & Beef",
+          "quantity": 1,
+          "price": 120,
+          "total": 120
+        }
+      ],
+      "total": 120,
+      "paymentMethod": "mpesa",
+      "mpesaPhone": "0110725771",
+      "paymentStatus": "Paid"
+    },
+    {
+      "id": 1764779944536,
+      "orderNumber": "TUC-1007",
+      "timestamp": "12/3/2025, 7:39:04 PM",
+      "items": [
+        {
+          "id": 14,
+          "name": "Melon",
+          "quantity": 1,
+          "price": 10,
+          "total": 10
+        }
+      ],
+      "total": 10,
+      "paymentMethod": "cash",
+      "mpesaPhone": null,
+      "paymentStatus": "Paid"
+    },
+    {
+      "id": 1764779533153,
+      "orderNumber": "TUC-1006",
+      "timestamp": "12/3/2025, 7:32:13 PM",
+      "items": [
+        {
+          "id": 9,
+          "name": "Samosa",
+          "quantity": 1,
+          "price": 25,
+          "total": 25
+        },
+        {
+          "id": 12,
+          "name": "Chips",
+          "quantity": 1,
+          "price": 80,
+          "total": 80
+        },
+        {
+          "id": 3,
+          "name": "Tea",
+          "quantity": 26,
+          "price": 15,
+          "total": 390
+        }
+      ],
+      "total": 495,
+      "paymentMethod": "mpesa",
+      "mpesaPhone": "0741179808",
+      "paymentStatus": "Paid"
+    },
+    {
+      "id": 1764778670913,
+      "orderNumber": "TUC-1005",
+      "timestamp": "12/3/2025, 7:17:50 PM",
+      "items": [
+        {
+          "id": 3,
+          "name": "Tea",
+          "quantity": 4,
+          "price": 15,
+          "total": 60
+        }
+      ],
+      "total": 60,
+      "paymentMethod": "cash",
+      "mpesaPhone": null,
+      "paymentStatus": "Paid"
+    },
+    {
+      "id": 1764769214030,
+      "orderNumber": "TUC-1004",
+      "timestamp": "12/3/2025, 4:40:14 PM",
+      "items": [
+        {
+          "id": 1,
+          "name": "Mandazi",
+          "quantity": 2,
+          "price": 20,
+          "total": 40
+        }
+      ],
+      "total": 40,
+      "paymentMethod": "mpesa",
+      "mpesaPhone": "0741179808",
+      "paymentStatus": "Paid"
+    },
+    {
+      "id": 1764756940375,
+      "orderNumber": "TUC-1003",
+      "timestamp": "12/3/2025, 1:15:40 PM",
+      "items": [
+        {
+          "id": 1,
+          "name": "Mandazi",
+          "quantity": 20,
+          "price": 20,
+          "total": 400
+        }
+      ],
+      "total": 400,
+      "paymentMethod": "mpesa",
+      "mpesaPhone": "0741179808",
+      "paymentStatus": "Paid"
+    },
+    {
+      "id": 1764755115043,
+      "orderNumber": "TUC-1002",
+      "timestamp": "12/3/2025, 12:45:15 PM",
+      "items": [
+        {
+          "id": 1,
+          "name": "Mandazi",
+          "quantity": 1,
+          "price": 20,
+          "total": 20
+        }
+      ],
+      "total": 20,
+      "paymentMethod": "mpesa",
+      "mpesaPhone": "0741179808",
+      "paymentStatus": "Paid"
+    },
+    {
+      "id": 1764754994040,
+      "orderNumber": "TUC-1001",
+      "timestamp": "12/3/2025, 12:43:14 PM",
+      "items": [
+        {
+          "id": 5,
+          "name": "Ugali & Beef",
+          "quantity": 1,
+          "price": 120,
+          "total": 120
+        }
+      ],
+      "total": 120,
+      "paymentMethod": "mpesa",
+      "mpesaPhone": "0741179808",
+      "paymentStatus": "Paid"
+    },
+    {
+      "id": 1764754687918,
+      "orderNumber": "TUC-1000",
+      "timestamp": "12/3/2025, 12:38:07 PM",
+      "items": [
+        {
+          "id": 2,
+          "name": "Chapati",
+          "quantity": 1,
+          "price": 30,
+          "total": 30
+        }
+      ],
+      "total": 30,
+      "paymentMethod": "mpesa",
+      "mpesaPhone": "0741179808",
+      "paymentStatus": "Paid"
+    }
+  ],
+  "orderCounter": 1017,
+  "reviews": {},
+  "adminAccounts": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin123",
+      "role": "Super Admin",
+      "active": true
+    },
+    {
+      "id": 2,
+      "username": "manager",
+      "password": "manager123",
+      "role": "Manager",
+      "active": true
+    },
+    {
+      "id": 3,
+      "username": "PK",
+      "password": "1234",
+      "role": "Staff",
+      "active": true
+    }
+  ]
+}
