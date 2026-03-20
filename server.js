@@ -7,6 +7,8 @@ const fs = require('fs');
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 
+require('dotenv').config();
+
 // Import SQLite database connection and models
 const dbConnection = require('./database/sqlite-connection');
 const Admin = require('./database/models/sqlite/Admin');
