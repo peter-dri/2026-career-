@@ -8,11 +8,17 @@ Clean, simple cafeteria management system.
 node server.js
 ```
 
-Then open: `http://localhost:8000`
+Then open: `http://localhost:3000`
+
+To change the port, create a `.env` file in the project root:
+
+```bash
+PORT=8000
+```
 
 ## Admin Access
 
-Go to: `http://localhost:8000/admin.html`
+Go to: `http://localhost:3000/admin.html`
 
 - Username: `admin`
 - Password: `admin123`

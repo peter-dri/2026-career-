@@ -1,10 +1,15 @@
 const http = require('http');
 
+require('dotenv').config();
+
+const API_HOST = process.env.API_HOST || 'localhost';
+const API_PORT = parseInt(process.env.API_PORT || process.env.PORT, 10) || 3000;
+
 function testAPI(path, method = 'GET', data = null) {
     return new Promise((resolve, reject) => {
         const options = {
-            hostname: 'localhost',
-            port: 3000,
+            hostname: API_HOST,
+            port: API_PORT,
             path: path,
             method: method,
             headers: {
@@ -41,6 +46,7 @@ function testAPI(path, method = 'GET', data = null) {
 
 async function runTests() {
     console.log('🧪 Testing Tharaka Cafeteria API...\n');
+    console.log(`Target: http://${API_HOST}:${API_PORT}\n`);
 
     try {
         // Test 1: Get menu items
