@@ -5,7 +5,7 @@
         "id": 1,
         "name": "Mandazi",
         "price": 20,
-        "available": 40,
+        "available": 35,
         "unit": "pieces",
         "category": "breakfast"
       },
@@ -13,7 +13,7 @@
         "id": 2,
         "name": "Chapati",
         "price": 30,
-        "available": 36,
+        "available": 34,
         "unit": "pieces",
         "category": "breakfast"
       },
@@ -21,7 +21,7 @@
         "id": 3,
         "name": "Tea",
         "price": 15,
-        "available": 98,
+        "available": 97,
         "unit": "cups",
         "category": "breakfast"
       }
@@ -88,6 +88,40 @@
     "topRecommendedItems": []
   },
   "orderHistory": [
+    {
+      "id": 1774261647182,
+      "orderNumber": "TUC-1042",
+      "timestamp": "3/23/2026, 1:27:27 PM",
+      "items": [
+        {
+          "id": 1,
+          "name": "Mandazi",
+          "quantity": 5,
+          "price": 20,
+          "total": 100
+        },
+        {
+          "id": 2,
+          "name": "Chapati",
+          "quantity": 2,
+          "price": 30,
+          "total": 60
+        },
+        {
+          "id": 3,
+          "name": "Tea",
+          "quantity": 1,
+          "price": 15,
+          "total": 15
+        }
+      ],
+      "total": 175,
+      "paymentMethod": "cash",
+      "paymentStatus": "Pending Confirmation",
+      "orderStatus": "Received",
+      "lastStatusUpdate": "3/23/2026, 1:27:27 PM",
+      "notes": []
+    },
     {
       "id": 1773743070774,
       "orderNumber": "TUC-1041",
@@ -960,7 +994,7 @@
       "paymentStatus": "Paid"
     }
   ],
-  "orderCounter": 1041,
+  "orderCounter": 1042,
   "reviews": {},
   "adminAccounts": [
     {

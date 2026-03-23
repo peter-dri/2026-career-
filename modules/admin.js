@@ -4,9 +4,32 @@ const AdminModule = (() => {
     let posCart = [];
 
     async function loadData() {
-        const response = await fetch('/api/data');
-        appData = await response.json();
-        return appData;
+        try {
+            const response = await fetch('/api/data');
+            if (!response.ok) {
+                throw new Error(`Failed to load data (HTTP ${response.status})`);
+            }
+
+            const data = await response.json();
+
+            if (!data || typeof data !== 'object') {
+                throw new Error('Invalid server response');
+            }
+
+            if (!data.foodData || typeof data.foodData !== 'object') {
+                data.foodData = { breakfast: [], lunch: [], snacks: [] };
+            }
+
+            if (!Array.isArray(data.orderHistory)) {
+                data.orderHistory = [];
+            }
+
+            appData = data;
+            return appData;
+        } catch (error) {
+            console.error('Error loading admin data:', error);
+            throw error;
+        }
     }
 
     async function saveData() {
@@ -705,7 +728,7 @@ const AdminModule = (() => {
                 <div class="stat-card">
                     <h3>KSh ${avgOrder.toLocaleString()}</h3>
                     <p>Average Order</p>
-                alert('This order is already marked as paid.');
+                </div>
                 <div class="stat-card">
                     <h3>${paidPercentage}%</h3>
                     <p>Payment Rate</p>
@@ -1326,3 +1349,5 @@ const AdminModule = (() => {
         renderTopCustomers,
         renderRoles,
         renderActivityLog
+    };
+})();
